@@ -7,6 +7,7 @@ public class CuentaAhorro extends CuentaBancaria {
     private Calendar ultimaModificacion;
     public static final double tasaAhorro=0.03;
     public int numero;
+    public double hl;
 
 
     public CuentaAhorro(int numero, String nombreCliente) {
