@@ -10,6 +10,7 @@ public class PracticaLab {
     public static Alumnos administrador = new Alumnos();
     public static Alumnos logueado = new Alumnos();
     public static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         // TODO code application logic here
         administrador = new Alumnos("Administrador", "admin", "123", "administrador@unitec.edu", 11911105, 2019, "Administrador" );
